@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Gallery</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .gallery-title {
+            font-size: 36px;
+            font-family: Helvetica;
+            color: cadetblue;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .gallery-title:after {
+            content: "";
+            position: absolute;
+            width: 7.5%;
+            left: 46.5%;
+            height: 45px;
+            border-bottom: 1px solid lightblue;
+        }
+
+        .gallery_product {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .grow {
+            transition: all .2s ease-in-out;
+        }
+
+        .grow:hover {
+            transform: scale(1.1);
+        }
+
+        img{
+            width: 430px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="gallery col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="gallery-title">Gallery</h1>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture1.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture2.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture3.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture4.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture5.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture6.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture7.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture8.jpg">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img class="grow" src="./Images/picture9.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
