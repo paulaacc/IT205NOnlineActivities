@@ -2,8 +2,9 @@
 <html>
 
 <head>
+    <!-- title -->
     <title>Gallery</title>
-
+    <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -12,7 +13,10 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- CSS BEGINS HERE -->
     <style>
+        /* Title CSS */
         .gallery-title {
             font-size: 36px;
             font-family: Helvetica;
@@ -30,11 +34,13 @@
             border-bottom: 1px solid lightblue;
         }
 
+        /* Aligning pictures according to grid system */
         .gallery_product {
             margin-bottom: 30px;
             text-align: center;
         }
 
+        /* Hover effect */
         .grow {
             transition: all .2s ease-in-out;
         }
@@ -43,20 +49,25 @@
             transform: scale(1.1);
         }
 
+        /* Image size */
         img{
             width: 430px;
             height: 300px;
         }
-    </style>
-
+    </style> <!-- CSS ENDS HERE -->
 </head>
 
 <body>
+    <!-- container -->
     <div class="container-fluid">
+        <!-- row -->
         <div class="row">
+            <!-- Header -->
             <div class="gallery col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h1 class="gallery-title">Gallery</h1>
             </div>
+            <!-- Header -->
+            <!-- pictures -->
             <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <img class="grow" src="./Images/picture1.jpg">
             </div>
@@ -84,8 +95,11 @@
             <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <img class="grow" src="./Images/picture9.jpg">
             </div>
+            <!-- end pictures -->
         </div>
+        <!-- end row -->
     </div>
+    <!-- end container -->
 </body>
 
 </html>
